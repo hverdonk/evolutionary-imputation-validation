@@ -81,4 +81,4 @@ for site in range (len (bySite)):
 # print ("SEQUENCE state was in the set of predictions at %d / %d sites" % (IN_SET, N))
 # print ("Among those, mean predicted probability is %g" % (MEAN_PROBABILITY / N))
 # print ("Among those, the mean log odds compared to any the second prediction was %g" % (sum (RATIO_TO_SECOND) / N))
-print(N,MOST_LIKELY_MATCH,IN_SET,MEAN_PROBABILITY,sum(RATIO_TO_SECOND),MEAN_PROBABILITY / N)
+print(N,MOST_LIKELY_MATCH,IN_SET,MEAN_PROBABILITY,sum(RATIO_TO_SECOND),MEAN_PROBABILITY / N, N-IN_SET)
