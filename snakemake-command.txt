@@ -1,0 +1,1 @@
+snakemake -s snakefile --cluster-config cluster.json --cluster "qsub -q epyc2 -V -l nodes={cluster.nodes}:ppn={cluster.ppn}" --jobs 22
